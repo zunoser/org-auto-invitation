@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "zunoser-auto-invitation",
+  "name": "org-auto-invitation",
   "main": "src/index.ts",
   "compatibility_date": "2026-06-10",
   "compatibility_flags": ["nodejs_compat"],
