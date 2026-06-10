@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "zunoser-auto-invitation",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-10",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "head_sampling_rate": 1
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 0.01
+    }
+  },
+  "vars": {
+    "APP_URL": "http://localhost:8787",
+    "DISCORD_CLIENT_ID": "replace-me",
+    "DISCORD_GUILD_ID": "replace-me",
+    "GITHUB_CLIENT_ID": "replace-me",
+    "GITHUB_ORG": "replace-me",
+    "DEBUG_UI": "0"
+  }
+}
